@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About
+I’m Vahe Karamyan, a software developer passionate about various topics in software development and engineering. This blog is where I share technical insights, tutorials, and project experiences.
+Follow along as I document my coding journey!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Check out my activities on [GitHub](https://github.com/vuvkar). Unfortunately, most of my work is on private on-premise Git repositories, so you won't see much activity there.
