@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Handling Microservice Exceptions in Spring Cloud Gateway with Body Modifiers in the Route"
+title: "[Spring Cloud] Exception handling with body modifiers in the route!"
 date: 2024-09-19
-categories: Spring Cloud Gateway
+categories: Spring Cloud
 ---
 
 ### Introduction
@@ -119,3 +119,5 @@ A potential downside of this approach is that we take over the responsibility of
 Handling microservice exceptions in Spring Cloud Gateway when using body modifiers can be tricky, but by creating a custom `AbstractResponseBodyModifier`, we can ensure that error responses are handled gracefully without breaking the response pipeline. This approach keeps the gateway lightweight and ensures that business logic is managed in the microservices themselves.
 
 I hope this solution helps anyone facing similar challenges in their Spring Cloud Gateway setups!
+
+#SpringCloudGateway #Microservices #ExceptionHandling #BodyModifiers #RewriteFunction #AbstractResponseBodyModifier #SpringBoot #Java #GatewayArchitecture #ErrorHandling #APIGateway #SpringCloud #WebFlux

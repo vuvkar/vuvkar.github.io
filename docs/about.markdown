@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About
 I’m Vahe Karamyan, a software developer passionate about various topics in software development and engineering. This blog is where I share technical insights, tutorials, and project experiences.
 Follow along as I document my coding journey!
 
