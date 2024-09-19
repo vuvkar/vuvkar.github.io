@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Spring Cloud] Exception handling with body modifiers in the route!"
+title: "Spring Cloud: Exception handling with custom body modifiers in the route!"
 date: 2024-09-19
 categories: Spring Cloud
 ---
