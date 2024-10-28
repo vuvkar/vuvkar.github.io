@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sample FirebaseUI App</title>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCrRA--JRs1Q7MKeNwyJjF8FuiLYxND6fs",
+      authDomain: "pesonal-blog-b04f9.firebaseapp.com",
+      projectId: "pesonal-blog-b04f9",
+      storageBucket: "pesonal-blog-b04f9.appspot.com",
+      messagingSenderId: "438243676710",
+      appId: "1:438243676710:web:f5b86b4f2c02ad5a114ce7",
+      measurementId: "G-4D8R3JZJ9P"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</head>
+<body>
+<!-- The surrounding HTML is left untouched by FirebaseUI.
+     Your app may use that space for branding, controls and other customizations.-->
+<h1>Welcome to My Awesome App</h1>
+<div id="firebaseui-auth-container"></div>
+</body>
+</html>
