@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "GIS: Terrain Elevated Tilted Hillshade"
+title: "GIS: Terrain Elevated Tinted Hillshade"
 date: 2024-11-09
 categories: GIS, GeoServer
 ---
 
-![Image](/assets/photos/final-terrain-preview.jpeg)
+![Image](/docs/assets/photos/final-terrain-preview.jpeg)
 
 Ever wanted to create hillshaded terrain like the one in this picture? This guide is for you! The area shown here centers over Armenia—a country that should be on your list of places to explore. Look at those mountains! ^_^
 
@@ -24,7 +24,7 @@ To produce the tinted hillshade, you need elevation data for the area, provided 
 
 Once you have the DEM data and open it in QGIS, it will appear as a dull gray image like this:
 
-![Image](/assets/photos/dem-raw-preview.jpeg)
+![Image](/docs/assets/photos/dem-raw-preview.jpeg)
 
 Next, we’ll create contoured hillshades from the raw DEM files.
 
@@ -70,7 +70,7 @@ Once you have contoured hillshading, apply a color ramp to bring the DEM data to
 
 To decide on color distribution, I generated a histogram of the overall data. For this, I created a VRT of all raw DEM files and calculated the histogram in QGIS:
 
-![Image](/assets/photos/dem-histogram-preview.png)
+![Image](/docs/assets/photos/dem-histogram-preview.png)
 
 Spikes in the histogram indicate where more color variation is needed to enhance detail. Here’s the final color ramp:
 
